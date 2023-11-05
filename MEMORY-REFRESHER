@@ -1,0 +1,3 @@
+- We're writing a simple test case `simpleMain` that tests the behaviour of the memory allocator.
+- We got the allocation pattern right, but we probably want to allocate in lengths (or object sizes) that are multiples of a page size,
+  otherwise we see that the different sized lists all have the same resident size in memory.
